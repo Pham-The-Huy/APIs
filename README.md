@@ -12,41 +12,29 @@
 
 ## API Endpoints
 
-1. Kiểm Thử 1: Lấy thông tin của một người dùng cụ thể
+1. Kiểm Thử 1: Lấy thông tin của một công việc cụ thể
 
 
    - **URL**: `https://jsonplaceholder.typicode.com/todos/23`
-   - **Method**: POST
-   - **Expected Response Code**: `201 Created` -![alt text](kt1.jpeg)
-
-2. **Get Users (GET)**
-
-   - **URL**: `https://jsonplaceholder.typicode.com/users`
    - **Method**: GET
-   - **Expected Response Code**: `200 OK`
-   - ![alt text](image.png)
+   - ![alt text](kt1.jpeg)
 
-3. **Update User (PUT)**
+2. Kiểm Thử 2: Kiểm tra xử lý lỗi khi truy cập không hợp lệ
 
-   - **URL**: `https://jsonplaceholder.typicode.com/users/1`
+   - **URL**: `https://jsonplaceholder.typicode.com/todos/2000`
+   - **Method**: GET
+   - ![alt text](kt2.jpeg)
+
+3. Kiểm Thử 3: Sửa đổi một công việc
+
+   - **URL**: `https://jsonplaceholder.typicode.com/todos/2`
    - **Method**: PUT
-   - **Request Body**:
-     ```json
-     {
-       "name": "John Doe Updated",
-       "email": "johndoe_updated@example.com",
-       "phone": "1-770-736-8031",
-       "website": "johndoeupdated.com"
-     }
-     ```
-   - **Expected Response Code**: `200 OK`
-   - ![alt text](image-2.png)
+   - ![alt text](kt3.jpeg)
 
-4. **Delete User (DELETE)**
-   - **URL**: `https://jsonplaceholder.typicode.com/users/1`
-   - **Method**: DELETE
-   - **Expected Response Code**: `200 OK`
-   - ![alt text](image-3.png)
+4. Kiểm Thử 4: Tạo mới một công việc
+   - **URL**: `https://jsonplaceholder.typicode.com/todos`
+   - **Method**: POST
+   - ![alt text](kt4.jpeg)
 
 ## Báo Cáo Kiểm Thử Chi Tiết
 
