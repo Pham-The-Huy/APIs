@@ -8,24 +8,16 @@
 
 ## API Được Chọn
 
-- jsonplaceholder.typicode.com.API cho phép tạo, xem, cập nhật và xóa người dùng.
+- https://jsonplaceholder.typicode.com/todos một danh sách các công việc với thông tin đầy đủ.
 
 ## API Endpoints
 
-1. **Create User (POST)**
+1. Kiểm Thử 1: Lấy thông tin của một người dùng cụ thể
 
-   - **URL**: `https://jsonplaceholder.typicode.com/users`
+
+   - **URL**: `https://jsonplaceholder.typicode.com/todos/23`
    - **Method**: POST
-   - **Request Body**:
-     ```json
-     {
-       "name": "John Doe",
-       "email": "johndoe@example.com",
-       "phone": "1-770-736-8031",
-       "website": "johndoe.com"
-     }
-     ```
-   - **Expected Response Code**: `201 Created` -![alt text](image-1.png)
+   - **Expected Response Code**: `201 Created` -![alt text](kt1.jpeg)
 
 2. **Get Users (GET)**
 
